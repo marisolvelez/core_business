@@ -3,10 +3,10 @@ name: Django CI/CD
 on:
   push:
     branches:
-      - prod
+      - main
   pull_request:
     branches:
-      - prod
+      - main
 
 jobs:
   test:
